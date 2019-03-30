@@ -4,18 +4,18 @@ title: 神经网络为什么要加速
 tag: 模型加速
 ---
 
-### 为什么要加速？
+## 为什么要加速？
 神经网络为什么要加速，以下是各个相关文章的说法。
 
-###### MobileNets
+### MobileNets
 
-__In many real world applications__ such as robotics, self-driving car and augmented reality, __the recognition tasks __need to be carried out in a timely fashion on __a computationally limited platform__.
+__In many real world applications__ such as robotics, self-driving car and augmented reality, __the recognition tasks__ need to be carried out in a timely fashion on  __a computationally limited platform__.
 
 
 
-###### SqueezeNet
+### SqueezeNet
 
-A CNN architecture with __fewer parameters__ has several advantages:
+A CNN architecture with  __fewer parameters__  has several advantages:
 
 * More efficient distributed training.
 * Less overhead when exporting new models to clients.
@@ -23,24 +23,24 @@ A CNN architecture with __fewer parameters__ has several advantages:
 
 
 
-###### ShuffleNet
+### ShuffleNet
 
 We introduce an extremely computation-efficient CNN architecture named ShuffleNet, __which is designed specially for mobile devices with very limited computing power__.
 
 
 
-###### Inception
+### Inception
 
 __With the ongoing traction of mobile and embedded computing__, __the efficiency of our algorithms__-especially their power and memory use - __gains importance__.
 
 
 
-######DenseNet: Implementing Efficient ConvNet Descriptor Pyramids
+### DenseNet: Implementing Efficient ConvNet Descriptor Pyramids
 __Extending__ a current state of the art __CNN-based classifier into an object detector__ using a naive dense sliding window set of region proposals would be __prohibitively slow__.
 
 
 
-###### Exploiting Linear Structure Within Convolutional Networks for Efficient Evaluation
+### Exploiting Linear Structure Within Convolutional Networks for Efficient Evaluation
 
 大模型部署时会存在以下问题：
 
@@ -49,18 +49,18 @@ __Extending__ a current state of the art __CNN-based classifier into an object d
 
 
 
-###### Speeding-up convolutional neural networks using fine-tuned CP-decomposition
+### Speeding-up convolutional neural networks using fine-tuned CP-decomposition
 CNN在低端设备上的应用及单独训练的计算代价是个问题，尤其在一些实时应用中
 
 
 
-###### Sparse convolutional neural networks
+### Sparse convolutional neural networks
 
 神经网络的结构中存在大量的冗余
 
 
 
-###### Efficient and accurate approximations of nonlinear convolutional networks
+### Efficient and accurate approximations of nonlinear convolutional networks
 
 高昂的测试代价使得模型在实际中不实用
 
@@ -70,7 +70,7 @@ CNN在低端设备上的应用及单独训练的计算代价是个问题，尤�
 
 
 
-###### Accelerating very deep convolutional networks for classification and detection
+### Accelerating very deep convolutional networks for classification and detection
 
 Real-world systems may suffer from the low speed of these networks.
 
@@ -80,6 +80,6 @@ Real-world systems may suffer from the low speed of these networks.
 
 
 
-###### Coordinating Filters for Faster Deep Neural Networks
+### Coordinating Filters for Faster Deep Neural Networks
 
 The high computation intensity of DNNs makes it challenging to deploy these models on __resource-limited systems__.

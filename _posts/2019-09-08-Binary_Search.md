@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 二分查找
-tag: C++,python
+tag: [C++,python]
 ---
 
 ## C++
